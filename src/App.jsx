@@ -46,7 +46,7 @@ function App() {
       setAllCountries(loadedCountries);
     };
     fetchData();
-    console.log(countries[29]);
+
   }, []);
 
   function handleDarkMode() {
